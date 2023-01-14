@@ -1,0 +1,129 @@
+:root{
+    --tomato-color: #F4623A;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head-body{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%,rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+.head-title{
+    width: 50%;
+    margin: auto;
+    margin-top:5.5rem ;
+}
+.head-title h2{
+    font-size: 3.8rem;
+    font-weight: bold;
+}
+.hr-tomato{
+    width: 7%;
+    background-color: var(--tomato-color);
+    border: 0.13rem solid var(--tomato-color);
+    opacity: 1;
+    margin: auto;
+}
+.head-title p{
+    font-size: 1.2rem;
+}
+.main-btn{
+    background: var(--tomato-color);
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.get{
+    padding: 5rem;
+    background-color: var(--tomato-color);
+}
+.get-title{
+    width: 60%;
+    margin: auto;
+}
+.get-title a{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.get-title hr{
+    width: 7%;
+    margin: auto;
+    background: var(--tomato-color);
+    border: 0.13rem solid #fff;
+    opacity: 1;
+}
+.get-title p{
+    font-size: 1.1rem;
+}
+.services{
+    margin-top: 5rem;
+}
+.services hr{
+    width: 4%;
+    background-color: var(--tomato-color);
+    border: 0.13rem solid var(--tomato-color);
+    opacity: 1;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+.services .card{
+    width: calc(92% / 4);
+    margin-left: 2%;
+    margin-top: 3rem;
+    border: 0rem;
+}
+.services .card i{
+    font-size: 2.6rem;
+    color: var(--tomato-color);
+}
+.services h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.services p{
+    font-size: 1.1rem;
+}
+.portfolio{
+    margin-top: 7rem;
+}
+.port-img img{
+    width: calc(100% / 3);
+}
+.port-title a{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.port-title{
+    padding: 6rem;
+
+}
+.contact-body{
+    width: 35%;
+    margin: auto;
+    margin-top: 6rem;
+}
+.contact-title hr{
+    width: 11% !important;
+}
+.contact .contact-body form a{
+    width: 100% !important;
+}
+.contact .contact-body .contact-mob i{
+    font-size: 2rem;
+
+}
+.contact .contact-body .contact-mob p{
+    font-size: 1.2rem;
+}
+footer{
+    margin-top: 8rem;
+}
